@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.json.bak
+evidencia*.json
+cuestionario*.json
+resultado*.json
+informe*.md
+kb/capabilities.json
+kb/capabilities/
+fuentes/raw/
+/clientes/
+/salidas/
+.env*
+*.csv
+*.xlsx
+*.docx

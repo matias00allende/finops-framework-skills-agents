@@ -1,0 +1,156 @@
+{
+ "allocation": {
+  "nombre": "Allocation",
+  "dominio": "Understand Usage & Cost",
+  "aws": "PARCIAL",
+  "gcp": "AUTOMATIZABLE",
+  "azure": "PARCIAL"
+ },
+ "anomaly-management": {
+  "nombre": "Anomaly Management",
+  "dominio": "Understand Usage & Cost",
+  "aws": "AUTOMATIZABLE",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "architecting-workload-placement": {
+  "nombre": "Architecting & Workload Placement",
+  "dominio": "Optimize Usage & Cost",
+  "aws": "SOLO MANUAL",
+  "gcp": "SOLO MANUAL",
+  "azure": "SOLO MANUAL"
+ },
+ "automation-tools-services": {
+  "nombre": "Automation, Tools, & Services",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "SOLO MANUAL",
+  "gcp": "SOLO MANUAL",
+  "azure": "SOLO MANUAL"
+ },
+ "budgeting": {
+  "nombre": "Budgeting",
+  "dominio": "Quantify Business Value",
+  "aws": "PARCIAL",
+  "gcp": "AUTOMATIZABLE",
+  "azure": "PARCIAL"
+ },
+ "data-ingestion": {
+  "nombre": "Data Ingestion",
+  "dominio": "Understand Usage & Cost",
+  "aws": "AUTOMATIZABLE",
+  "gcp": "PARCIAL",
+  "azure": "AUTOMATIZABLE"
+ },
+ "executive-strategy-alignment": {
+  "nombre": "Executive Strategy Alignment",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "SOLO MANUAL",
+  "gcp": "SOLO MANUAL",
+  "azure": "SOLO MANUAL"
+ },
+ "finops-assessment": {
+  "nombre": "FinOps Assessment",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "SOLO MANUAL",
+  "gcp": "SOLO MANUAL",
+  "azure": "SOLO MANUAL"
+ },
+ "finops-education-enablement": {
+  "nombre": "FinOps Education & Enablement",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "SOLO MANUAL",
+  "gcp": "SOLO MANUAL",
+  "azure": "SOLO MANUAL"
+ },
+ "finops-practice-operations": {
+  "nombre": "FinOps Practice Operations",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "SOLO MANUAL",
+  "gcp": "SOLO MANUAL",
+  "azure": "SOLO MANUAL"
+ },
+ "forecasting": {
+  "nombre": "Forecasting",
+  "dominio": "Quantify Business Value",
+  "aws": "PARCIAL",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "governance-policy-risk": {
+  "nombre": "Governance, Policy & Risk",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "PARCIAL",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "intersecting-disciplines": {
+  "nombre": "Intersecting Disciplines",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "SOLO MANUAL",
+  "gcp": "SOLO MANUAL",
+  "azure": "SOLO MANUAL"
+ },
+ "invoicing-chargeback": {
+  "nombre": "Invoicing & Chargeback",
+  "dominio": "Manage the FinOps Practice",
+  "aws": "PARCIAL",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "kpis-benchmarking": {
+  "nombre": "KPIs & Benchmarking",
+  "dominio": "Quantify Business Value",
+  "aws": "PARCIAL",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "licensing-saas": {
+  "nombre": "Licensing & SaaS",
+  "dominio": "Optimize Usage & Cost",
+  "aws": "PARCIAL",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "planning-estimating": {
+  "nombre": "Planning & Estimating",
+  "dominio": "Quantify Business Value",
+  "aws": "PARCIAL",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "rate-optimization": {
+  "nombre": "Rate Optimization",
+  "dominio": "Optimize Usage & Cost",
+  "aws": "AUTOMATIZABLE",
+  "gcp": "AUTOMATIZABLE",
+  "azure": "AUTOMATIZABLE"
+ },
+ "reporting-analytics": {
+  "nombre": "Reporting & Analytics",
+  "dominio": "Understand Usage & Cost",
+  "aws": "PARCIAL",
+  "gcp": "AUTOMATIZABLE",
+  "azure": "PARCIAL"
+ },
+ "sustainability": {
+  "nombre": "Sustainability",
+  "dominio": "Optimize Usage & Cost",
+  "aws": "PARCIAL",
+  "gcp": "AUTOMATIZABLE",
+  "azure": "PARCIAL"
+ },
+ "unit-economics": {
+  "nombre": "Unit Economics",
+  "dominio": "Quantify Business Value",
+  "aws": "PARCIAL",
+  "gcp": "PARCIAL",
+  "azure": "PARCIAL"
+ },
+ "usage-optimization": {
+  "nombre": "Usage Optimization",
+  "dominio": "Optimize Usage & Cost",
+  "aws": "PARCIAL",
+  "gcp": "AUTOMATIZABLE",
+  "azure": "AUTOMATIZABLE"
+ }
+}
