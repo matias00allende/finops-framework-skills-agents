@@ -58,7 +58,7 @@ def md(c):
     return "\n".join(o)
 
 caps = []
-for f in sorted(p for p in RAW.glob("*.txt") if not p.name.startswith("_")):
+for f in sorted(p for p in RAW.glob("*.txt") if not p.name.startswith("_") and re.fullmatch(r"[a-z0-9-]+", p.stem)):
     c = parse(f.stem)
     caps.append(c)
     (KB / "capabilities" / f"{c['slug']}.md").write_text(md(c), encoding="utf-8")

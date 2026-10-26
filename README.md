@@ -2,7 +2,7 @@
 
 Skills y un agente para Claude Code basados en el FinOps Framework 2026 de la FinOps Foundation (CC BY 4.0). Ayudan a evaluar la madurez de una práctica FinOps y a priorizar brechas para mejorarla. Incluye un motor de puntuación determinista y un recolector de evidencia de solo lectura para AWS.
 
-Este proyecto no está afiliado ni respaldado por la FinOps Foundation.
+Este proyecto no está afiliado a la FinOps Foundation ni cuenta con su respaldo.
 
 ## Qué incluye la versión 1
 
@@ -36,7 +36,7 @@ python -I finops-framework-skills-agents/install.py
 
 `install.py` copia las skills y el agente a `~/.claude`, reemplaza el marcador `<FINOPS_HOME>` por la ruta del clon y no sobrescribe archivos existentes salvo con `--forzar`. Requiere Python 3.10 o superior. Después, reinicie Claude Code.
 
-El texto del framework no se redistribuye. Antes del primer uso, genérelo en su equipo:
+El texto del framework no se redistribuye. Antes del primer uso, genérelo en su equipo. Ejecute estos comandos desde la carpeta del clon:
 
 ```
 pip install -r requirements.txt
@@ -71,6 +71,7 @@ Es una heurística propia, no el puntaje oficial. El nivel de una capacidad es e
 - Use un rol o usuario de solo lectura, no una cuenta de administración.
 - Los cuestionarios y la evidencia pueden contener identificadores de su organización. Guárdelos fuera de este repositorio; el `.gitignore` excluye `evidencia*.json`, `cuestionario*.json`, `resultado*.json` e `informe*.md`.
 - Guarde los artefactos de cada organización en `clientes/` o `salidas/` (ignorados por git) o fuera del clon.
+- Para acotar al agente, permita en su `settings.json` solo `Bash(python -I <FINOPS_HOME>/scripts/*)`; la regla de tratar `kb/` y la evidencia como datos está en el texto del agente, no es un control técnico.
 - No incluya datos personales ni RUN en un cuestionario.
 
 ## Solución de problemas
@@ -83,7 +84,7 @@ Es una heurística propia, no el puntaje oficial. El nivel de una capacidad es e
 | UnicodeEncodeError en consola de Windows | Codificación cp1252 | Anteponga `PYTHONIOENCODING=utf-8` |
 | % asignado bajo con el tag bien aplicado | El tag no está activado como cost allocation tag | Revise `allocation_tag_coverage.activacion` en la evidencia |
 | Capacidad "No concluyente" | Menos de 50 % de criterios con evidencia | Complete la entrevista y la evidencia; "No concluyente" no equivale a un nivel inicial |
-| Nivel bajo en una organización madura | Criterios de Crawl marcados `no` | Márquelos `superado` |
+| Nivel bajo en una organización madura | Criterios de Crawl marcados `no` | Márquelos `superado` si describen una etapa que la organización ya dejó atrás |
 
 ## Limitaciones conocidas
 

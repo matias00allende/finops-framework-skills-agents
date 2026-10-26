@@ -10,7 +10,7 @@ Este repositorio no redistribuye el texto del FinOps Framework de finops.org. Lo
 FinOps Framework, FinOps Foundation, licencia Creative Commons Attribution 4.0 (CC BY 4.0):
 https://creativecommons.org/licenses/by/4.0/
 
-Cualquier uso del texto descargado debe conservar la atribución. Este proyecto no está afiliado ni respaldado por la FinOps Foundation. "FinOps" y los
+Cualquier uso del texto descargado debe conservar la atribución. Este proyecto no está afiliado a la FinOps Foundation ni cuenta con su respaldo. "FinOps" y los
 nombres del framework pertenecen a sus titulares.
 
 ## Documentación de proveedores cloud

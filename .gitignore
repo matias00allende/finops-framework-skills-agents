@@ -14,3 +14,10 @@ fuentes/raw/
 *.csv
 *.xlsx
 *.docx
+.venv/
+venv/
+*.log
+*.bak
+*.pem
+*.key
+.aws/
